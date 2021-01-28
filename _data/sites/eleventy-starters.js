@@ -21,11 +21,11 @@ module.exports = async function() {
 		description: "Eleventy Starter Projects",
 		unordered: true,
 		// skip if localhost
-		// skip if this is a new fork of the kct-speedlify (not Keith’s)
-		skip: !process.env.CONTEXT || process.env.SITE_NAME !== "kct-speedlify",
+		// skip if this is a new fork of the speedlify (not Zach’s)
+		skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
 		estimatedTimePerBuild: .2,
 		options: {
-			frequency: 60 * 99.5, // 99.5 hours
+			frequency: 60 * 11.5, // 11.5 hours
 			// Use "run" if the sites don’t share assets on the same origin
 			//           and we can reset chrome with each run instead of
 			//           each site in every run (it’s faster)
